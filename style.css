@@ -23,7 +23,7 @@ body {
   position: absolute;
   top: 50%;
   left: 45%;
-  transform: prespective(1000px) translate(-50%, -50%);
+  transform: perspective(1000px) translate(-50%, -50%);
   transform: skewY(15deg);
   transition: 0.5s;
 }
@@ -144,6 +144,7 @@ body {
 }
 /*picture slideshow*/
 .carousel {
+  display: flex;
   --carousel-width: 900px;
   --slides-to-show: 3;
   --button-size: 44px;

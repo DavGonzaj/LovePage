@@ -343,6 +343,9 @@ p {
   h1 {
     font-size: 20px;
   }
+  h3 {
+    font-size: 70%;
+  }
   p {
     font-size: 60%;
   }
@@ -350,6 +353,9 @@ p {
     position: relative;
     z-index: 1;
     animation: beat 2s linear infinite;
+  }
+  .bottompar p {
+    font-size: 50%;
   }
   .vidpar {
     border-radius: 20px;
